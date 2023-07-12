@@ -3,7 +3,7 @@ entries:
   spaceone:
   - apiVersion: v2
     appVersion: 1.10.4
-    created: "2023-07-11T16:01:02.471869032+09:00"
+    created: "2023-07-12T16:20:23.70117104+09:00"
     dependencies:
     - condition: console.enabled
       name: console
@@ -71,7 +71,7 @@ entries:
       version: '>=1.0.0'
     - condition: marketplace-assets.enabled
       name: marketplace-assets
-      repository: https://choihaemin.github.io/charts
+      repository: https://spaceone-dev.github.io/charts
       version: '>=1.0.0'
     - condition: supervisor.enabled
       name: supervisor
@@ -83,7 +83,7 @@ entries:
       version: '>=1.0.0'
     - condition: supervisor.enabled
       name: spaceone-initializer
-      repository: https://choihaemin.github.io/charts
+      repository: https://spaceone-dev.github.io/charts
       version: '>=1.0.0'
     - condition: vault.enabled
       name: vault
@@ -94,11 +94,11 @@ entries:
       repository: https://helm.releases.hashicorp.com
       version: '>=0.1.0'
     description: A Helm chart for SpaceONE
-    digest: 18d3fea9ec881f83c87bf9d51ce681d20afedc594982ed1ae4552ff97eaa3d43
+    digest: 9796958bd19df8ae8303b1adbb7c1096389871cff4bbe1bbe58d5b2dfc087dcf
     home: https://www.spaceone.org
     name: spaceone
     type: application
     urls:
     - spaceone-1.10.4.tgz
     version: 1.10.4
-generated: "2023-07-11T16:01:02.455433732+09:00"
+generated: "2023-07-12T16:20:23.68016634+09:00"
