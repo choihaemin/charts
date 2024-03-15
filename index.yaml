@@ -3,7 +3,7 @@ entries:
   spaceone:
   - apiVersion: v2
     appVersion: 1.10.4
-    created: "2024-03-15T10:08:09.8444876+09:00"
+    created: "2024-03-15T10:20:10.2263926+09:00"
     dependencies:
     - condition: console.enabled
       name: console
@@ -94,11 +94,11 @@ entries:
       repository: https://helm.releases.hashicorp.com
       version: '>=0.1.0'
     description: A Helm chart for SpaceONE
-    digest: ed90cbc7e12e0323b1fdd26eca0e866258f09824e4bbb4a66dd7d4c2955359d4
+    digest: e76947f5f2c60ddfa76f28f2840479a404338a9da97af544de273610b6133aa8
     home: https://www.spaceone.org
     name: spaceone
     type: application
     urls:
     - spaceone-1.10.4.tgz
     version: 1.10.4
-generated: "2024-03-15T10:08:09.8346527+09:00"
+generated: "2024-03-15T10:20:10.2162855+09:00"
