@@ -1,15 +1,104 @@
 apiVersion: v1
 entries:
   spaceone:
-  - apiVersion: v1
+  - apiVersion: v2
     appVersion: 1.10.4
-    created: "2025-02-11T08:16:43.588102144Z"
+    created: "2025-02-11T17:45:19.947578+09:00"
+    dependencies:
+    - condition: console.enabled
+      name: console
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: identity.enabled
+      name: identity
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: secret.enabled
+      name: secret
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: repository.enabled
+      name: repository
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: config.enabled
+      name: config
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: statistics.enabled
+      name: statistics
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: notification.enabled
+      name: notification
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: board.enabled
+      name: board
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://spaceone-dev.github.io/charts
+      version: '>=1.0.0'
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: provisioning.enabled
+      name: provisioning
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: supervisor.enabled
+      name: spaceone-initializer
+      repository: https://choihaemin.github.io/charts
+      version: '>=1.0.0'
+    - condition: vault.enabled
+      name: vault
+      repository: ""
+      version: '>=0.1.0'
+    - condition: consul.enabled
+      name: consul
+      repository: https://helm.releases.hashicorp.com
+      version: '>=0.1.0'
     description: A Helm chart for SpaceONE
-    digest: 46535a3c8c9682f561e7e3cf99879df4b9cf018014e0341c7158e24065a39b74
+    digest: 4178883c5e95c9926a51dbbe2bdb684bc8252d8072221841f7703c1d32d03eb9
     home: https://www.spaceone.org
     name: spaceone
     type: application
     urls:
     - spaceone-1.10.4.tgz
     version: 1.10.4
-generated: "2025-02-11T08:16:43.532183312Z"
+generated: "2025-02-11T17:45:19.9340523+09:00"
